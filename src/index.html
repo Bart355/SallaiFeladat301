@@ -4,32 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<h1>, initial-scale=1.0">
-    <title>Document</title>
+    <title>Feladat 0301</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Feladat 0301</h1>
+    <div class="container">
+        <h1>Feladat 0301</h1>
+        <form id="valamiForm">
+            <label for="sugar">Sugár</label>
+            <input type="text" id="sugar" class="form-control" name="sugar" required><br>
 
-    <form> 
-        <label for="sugar">Sugár</label>
-        <input type="text" id="sugar"><br>
+            <label for="magassag">Magasság</label>
+            <input type="text" id="magassag" class="form-control"><br>
 
-
-        <label for="magassag">Magasság</label>
-        <input type="text" id="magassag"><br>
-
-        <button id="szamitTerfogat"type="button">Számít</button>
-        <br>
-
-        <label for="terfogat">Térfogat</label>
-        <input type="text" id="terfogat"><br>
-
-
-     </form>
-
-    <div>
-    <p>Nagy János</p>
-
+            <button id="szamitTerfogat"type="button"class="btn btn-primary">Számít</button>
+            <br>
+            <label for="terfogat">Térfogat</label>
+            <input type="text" id="terfogat" class="form-control"><br>
+         </form>
+       
+        
     </div>
+    <div id="nevjegy">
+        Nagy János, 2022.01.12, <br>
+        Szoft 2 .e 
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="app.js"></script>
 
 </body>
 </html>

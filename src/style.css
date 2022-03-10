@@ -1,0 +1,16 @@
+#nevjegy {
+    background-color: aquamarine;
+    position: fixed;
+    width: 600px;
+    text-align: center;
+    color:brown;
+    padding: 13px;
+    top: 60px;;
+    transform: rotate(35deg);
+    right: -110px;
+    font-size: 26px;
+    border:solid 3px red;
+
+
+
+}
